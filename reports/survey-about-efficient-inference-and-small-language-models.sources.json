@@ -1,0 +1,194 @@
+[
+  {
+    "n": 1,
+    "id": "2410.20011",
+    "url": "https://huggingface.co/papers/2410.20011",
+    "title": "A Survey of Small Language Models",
+    "date": "2024-10-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "https://aclanthology.org/2025.acl-long.718.pdf",
+    "url": "https://aclanthology.org/2025.acl-long.718.pdf",
+    "title": "Demystifying Small Language Models for Edge Deployment",
+    "date": "2025-07-01",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "https://dl.acm.org/doi/epdf/10.1145/3711896.3736563",
+    "url": "https://dl.acm.org/doi/epdf/10.1145/3711896.3736563",
+    "title": "A Survey on Small Language Models in the Era of Large Language Models: Architecture, Capabilities, and Trustworthiness",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "https://arxiv.org/pdf/2411.13676",
+    "url": "https://arxiv.org/pdf/2411.13676",
+    "title": "Hymba: A Family of Small Language Models Featuring a Hybrid-Head Parallel Architecture",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2608.18182",
+    "url": "https://arxiv.org/abs/2608.18182",
+    "title": "Efficient INT8 Inference of Small NLP Models on Server CPUs with PyTorch Native Stack",
+    "date": "2026-08-18",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.645.pdf",
+    "url": "https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.645.pdf",
+    "title": "Revisiting Pruning vs Quantization for Small Language Models",
+    "date": "2025-07-01",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "https://arxiv.org/html/2512.11920v1",
+    "url": "https://arxiv.org/html/2512.11920v1",
+    "title": "CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2506.11309",
+    "url": "https://arxiv.org/pdf/2506.11309",
+    "title": "SwiftSpec: Ultra-Low Latency LLM Decoding via Asynchronous Disaggregated Speculative Decoding and Fused Kernels",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2605.29639",
+    "url": "https://arxiv.org/abs/2605.29639",
+    "title": "RTP-LLM: High-Performance Alibaba LLM Inference Engine",
+    "date": "2026-05-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2503.12167",
+    "url": "https://arxiv.org/abs/2503.12167",
+    "title": "PLM: Efficient Peripheral Language Models Hardware-Co-Designed for Ubiquitous Computing",
+    "date": "2025-03-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2502.14305",
+    "url": "https://huggingface.co/papers/2502.14305",
+    "title": "Scaling Down, Serving Fast: Compressing and Deploying Efficient LLMs for Recommendation Systems",
+    "date": "2025-10-26",
+    "source": "hf-search"
+  },
+  {
+    "n": 12,
+    "id": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3848fef259495bfd04d60cdc5c1b4db7-Paper-Conference.pdf",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3848fef259495bfd04d60cdc5c1b4db7-Paper-Conference.pdf",
+    "title": "Transformers to SSMs: Distilling Quadratic Knowledge to Subquadratic Models",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "https://oro.open.ac.uk/104314/",
+    "url": "https://oro.open.ac.uk/104314/",
+    "title": "Towards the Law of Capacity Gap in Distilling Language Models",
+    "date": "2025-07-27",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "https://arxiv.org/html/2510.07227",
+    "url": "https://arxiv.org/html/2510.07227",
+    "title": "Where to Begin: Efficient Pretraining via Subnetwork Selection and Distillation",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 15,
+    "id": "2504.12322",
+    "url": "https://huggingface.co/papers/2504.12322",
+    "title": "A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis",
+    "date": "2025-04-11",
+    "source": "hf-search"
+  },
+  {
+    "n": 16,
+    "id": "https://arxiv.org/abs/2409.15790",
+    "url": "https://arxiv.org/abs/2409.15790",
+    "title": "Small Language Models: Survey, Measurements, and Insights",
+    "date": "2025-02-26",
+    "source": "web"
+  },
+  {
+    "n": 17,
+    "id": "3789240.3829159",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3789240.3829159",
+    "title": "DualPath: Accelerating Agentic LLM Inference by Harvesting Disaggregated KV-Cache Storage I/O",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 18,
+    "id": "2510.18672",
+    "url": "https://proceedings.mlr.press/v267/tiwari25b.html",
+    "title": "QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache",
+    "date": "2025-10-06",
+    "source": "web"
+  },
+  {
+    "n": 19,
+    "id": "2609.05764",
+    "url": "https://arxiv.org/abs/2609.05764",
+    "title": "Interface-Aware KV Cache Quantization for Dense On-Chip NVM in Long-Context LLM Decoding",
+    "date": "2026-09-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 20,
+    "id": "2607.03876",
+    "url": "https://arxiv.org/abs/2607.03876",
+    "title": "AdaptiveSD: A Stability-Aware, Runtime-Adaptive Speculative Decoding Framework with Multi-Policy Orchestration for CPU-Constrained LLM Inference",
+    "date": "2026-07-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 21,
+    "id": "2607.25583",
+    "url": "https://arxiv.org/abs/2607.25583",
+    "title": "How Small Can You Go? A Controlled Study of LoRA Rank, Target Modules, and Quantization Trade-offs for Text-to-SQL on a 60M-Parameter Model",
+    "date": "2026-07-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 22,
+    "id": "2608.15383",
+    "url": "https://arxiv.org/abs/2608.15383",
+    "title": "ExactMoE: Memory-Efficient W4A16 Inference for Sparse Mixture-of-Experts",
+    "date": "2026-08-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 23,
+    "id": "2402.10787",
+    "url": "https://huggingface.co/papers/2402.10787",
+    "title": "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge",
+    "date": "2024-02-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 24,
+    "id": "https://arxiv.org/html/2507.03160",
+    "url": "https://arxiv.org/html/2507.03160",
+    "title": "Code Generation Benchmarks for SLMs",
+    "date": "2025-07-01",
+    "source": "web"
+  }
+]

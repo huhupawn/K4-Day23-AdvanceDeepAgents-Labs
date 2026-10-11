@@ -1,0 +1,170 @@
+[
+  {
+    "n": 1,
+    "id": "https://agentica.wiki/articles/tool-use",
+    "url": "https://agentica.wiki/articles/tool-use",
+    "title": "Tool Use | Agentica",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "https://web.stanford.edu/class/cs329z/slides/lecture04.pdf",
+    "url": "https://web.stanford.edu/class/cs329z/slides/lecture04.pdf",
+    "title": "Tool Use (Stanford CS329z Lecture)",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2302.04761",
+    "url": "https://huggingface.co/papers/2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "date": "2023-02-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2305.15334",
+    "url": "https://huggingface.co/papers/2305.15334",
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "date": "2023-02-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "https://www.microsoft.com/en-us/research/publication/autogen-enabling-next-gen-llm-applications-via-multi-agent-conversation-framework/",
+    "url": "https://www.microsoft.com/en-us/research/publication/autogen-enabling-next-gen-llm-applications-via-multi-agent-conversation-framework/",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "date": "2023-08-17",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2609.00714",
+    "url": "https://arxiv.org/html/2609.00714",
+    "title": "ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything",
+    "date": "2026-09-01",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "https://prakashkagitha.github.io/llm-stack-book/08-agents-harness/08-agent-evaluation.html",
+    "url": "https://prakashkagitha.github.io/llm-stack-book/08-agents-harness/08-agent-evaluation.html",
+    "title": "SWE-bench and SWE-bench Verified",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2610.08951",
+    "url": "https://arxiv.org/abs/2610.08951",
+    "title": "ASPIRE: Agentic Safety & Prompt Injection Red-teaming Engine",
+    "date": "2026-10-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2609.30217",
+    "url": "https://arxiv.org/abs/2609.30217",
+    "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+    "date": "2026-09-24",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "https://arxiv.org/pdf/2601.12449",
+    "url": "https://arxiv.org/pdf/2601.12449",
+    "title": "AgenTRIM: Balancing Tool-Driven Agency for Safer LLM Agents",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "https://aclanthology.org/2026.findings-acl.1850.pdf",
+    "url": "https://aclanthology.org/2026.findings-acl.1850.pdf",
+    "title": "ToolSafe: Enhancing Tool Invocation Safety of LLM-based Agents via Proactive Step-level Guardrail and Feedback",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "https://github.com/CodeOfMe/LLMAP/blob/main/chapter-11-agent-loop.md",
+    "url": "https://github.com/CodeOfMe/LLMAP/blob/main/chapter-11-agent-loop.md",
+    "title": "Chapter 11: Agent Loop and Tool Use",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "2308.10848v1",
+    "url": "https://arxiv.org/pdf/2308.10848v1",
+    "title": "AgentVerse: Flexible Multi-Agent Collaboration Framework",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "10.1145/3837062.3839380",
+    "url": "https://dl.acm.org/doi/10.1145/3837062.3839380",
+    "title": "KERKIS: a Modeling Language for Multi-Agent System Interactions in AI-Native Software Engineering",
+    "date": "2026-10-05",
+    "source": "web"
+  },
+  {
+    "n": 15,
+    "id": "https://github.com/c6ai/ToolBench",
+    "url": "https://github.com/c6ai/ToolBench",
+    "title": "ToolBench and ToolEval",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 16,
+    "id": "2605.11030v1",
+    "url": "https://arxiv.org/html/2605.11030v1",
+    "title": "An Executable Benchmarking Suite for Tool-Using Agents (v1 Suite)",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 17,
+    "id": "https://llmbook.icsgen-ai.org/part-6-agentic-ai/module-26-ai-agents/section-26.4.html",
+    "url": "https://llmbook.icsgen-ai.org/part-6-agentic-ai/module-26-ai-agents/section-26.4.html",
+    "title": "Additional Specialized Benchmarks and Evaluation Methodologies",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 18,
+    "id": "2609.22712",
+    "url": "https://arxiv.org/abs/2609.22712",
+    "title": "Trustworthy Agentic AI: Failure Modes, Mitigation Strategies, and a Lifecycle Framework for Autonomous LLM Systems",
+    "date": "2026-09-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 19,
+    "id": "https://arxiv.org/html/2403.02691v2",
+    "url": "https://arxiv.org/html/2403.02691v2",
+    "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 20,
+    "id": "2610.06966",
+    "url": "https://arxiv.org/abs/2610.06966",
+    "title": "Active Protection at Execution Boundaries for LLM Agents",
+    "date": "2026-10-03",
+    "source": "arxiv"
+  },
+  {
+    "n": 21,
+    "id": "2608.30441",
+    "url": "https://arxiv.org/abs/2608.30441",
+    "title": "ECLIPSE: Self-Evolving Stealthy Prompt Injection Attack against Long-Horizon Agentic Systems",
+    "date": "2026-08-31",
+    "source": "arxiv"
+  }
+]

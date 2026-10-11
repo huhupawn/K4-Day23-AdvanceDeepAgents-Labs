@@ -1,0 +1,199 @@
+[
+  {
+    "n": 1,
+    "id": "2507.04136",
+    "url": "https://arxiv.org/abs/2507.04136",
+    "title": "A Technical Survey of Reinforcement Learning Techniques for Large Language Models",
+    "date": "2025-07-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2501.12948",
+    "url": "https://huggingface.co/papers/2501.12948",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "date": "2025-01-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2407.16216",
+    "url": "https://www.alphaxiv.org/abs/2407.16216",
+    "date": "2026-05-16",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "sebastianraschka",
+    "url": "https://magazine.sebastianraschka.com/p/the-state-of-llm-reasoning-model-training",
+    "date": "2025-04-19",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "76ec4dc30e9faaf0e4b6093eaa377218",
+    "url": "https://papers.nips.cc/paper_files/paper/2024/file/76ec4dc30e9faaf0e4b6093eaa377218-Paper-Conference.pdf",
+    "title": "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2504.15275",
+    "url": "https://huggingface.co/papers/2504.15275",
+    "title": "Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning",
+    "date": "2025-04-21",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2503.14476",
+    "url": "https://huggingface.co/papers/2503.14476",
+    "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+    "date": "2025-03-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2604.15149",
+    "url": "https://arxiv.org/html/2604.15149",
+    "title": "LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking",
+    "date": "2026-04-24",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2404.10719v3",
+    "url": "https://arxiv.org/abs/2404.10719v3",
+    "title": "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study",
+    "date": "2024-10-10",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2602.09305v1",
+    "url": "https://arxiv.org/html/2602.09305v1",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2605.10325v1",
+    "url": "https://arxiv.org/html/2605.10325v1",
+    "title": "Verifiable Process Rewards for Agentic Reasoning",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2610.09804",
+    "url": "https://arxiv.org/abs/2610.09804",
+    "title": "BoT-GRPO: Efficient Process-Reward RL for Reasoning via Bag-of-Token Aggregation",
+    "date": "2026-10-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "517f9b9c227b9dd51dba4560f37165ed",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/517f9b9c227b9dd51dba4560f37165ed-Paper-Conference.pdf",
+    "title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "2601.21872",
+    "url": "https://huggingface.co/papers/2601.21872",
+    "title": "WebArbiter: A Principle-Guided Reasoning Process Reward Model for Web Agents",
+    "date": "2026-01-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2505.22312",
+    "url": "https://huggingface.co/papers/2505.22312",
+    "title": "Skywork Open Reasoner 1 Technical Report",
+    "date": "2025-05-28",
+    "source": "hf-search"
+  },
+  {
+    "n": 16,
+    "id": "2503.06749",
+    "url": "https://huggingface.co/papers/2503.06749",
+    "title": "Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models",
+    "date": "2025-03-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 17,
+    "id": "2505.11227",
+    "url": "https://huggingface.co/papers/2505.11227",
+    "title": "Is PRM Necessary? Problem-Solving RL Implicitly Induces PRM Capability in LLMs",
+    "date": "2025-05-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "2501.01478",
+    "url": "https://huggingface.co/papers/2501.01478",
+    "title": "Enhancing Reasoning through Process Supervision with Monte Carlo Tree Search",
+    "date": "2025-01-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 19,
+    "id": "2503.04618",
+    "url": "https://huggingface.co/papers/2503.04618",
+    "title": "Better Process Supervision with Bi-directional Rewarding Signals",
+    "date": "2025-03-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 20,
+    "id": "2601.17223",
+    "url": "https://huggingface.co/papers/2601.17223",
+    "title": "Beyond Outcome Verification: Verifiable Process Reward Models for Structured Reasoning",
+    "date": "2026-01-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 21,
+    "id": "2610.00332",
+    "url": "https://arxiv.org/abs/2610.00332",
+    "title": "The Weakest Link: Distilling LLM Reasoning with Worst-Case Constrained Reinforcement Learning",
+    "date": "2026-09-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 22,
+    "id": "2605.31584",
+    "url": "https://arxiv.org/abs/2605.31584",
+    "title": "LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards",
+    "date": "2026-05-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 23,
+    "id": "2605.18864",
+    "url": "https://arxiv.org/abs/2605.18864",
+    "title": "SAGE: Shaping Anchors for Guided Exploration in RLVR of LLMs",
+    "date": "2026-05-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 24,
+    "id": "537d5aa768c2d534016a4d06f87bc8fb",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/537d5aa768c2d534016a4d06f87bc8fb-Paper-Conference.pdf",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "date": "2025-12-01",
+    "source": "web"
+  },
+  {
+    "n": 25,
+    "id": "2602.07832",
+    "url": "https://arxiv.org/abs/2602.07832",
+    "title": "rePIRL: Learn PRM with Inverse IRL for LLM Reasoning",
+    "date": "2026-02-08",
+    "source": "arxiv"
+  }
+]

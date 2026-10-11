@@ -1,0 +1,59 @@
+# Comprehensive Survey on Video and Multimodal Generation: Architectures, Scaling Paradigms, and Evaluation
+
+## TL;DR
+- Video and multimodal generation has transitioned from isolated spatial-temporal models to unified foundation frameworks capable of joint tokenization, cross-modal reasoning, and synchronized audio-visual creation [1][2][3].
+- Diffusion Transformers (DiTs) coupled with spatial-temporal decomposition, rotary positional embeddings, and memory-conditioned correction have become the cornerstone architecture for high-resolution generation [4][5][6].
+- Recent models like Sora, Open-Sora, and NextFlow demonstrate that scaling patch-based compression and sequential multi-scale modeling unlocks powerful generalization across text, image, and video modalities [7][6][8].
+- Evaluation has evolved beyond traditional pixel-level metrics (FVD/FID) to disaggregated hierarchical benchmarks and human-aligned scoring models such as VBench and VideoScore [9][10].
+
+## Background
+Video and multimodal generation represents one of the most rapidly accelerating domains in artificial intelligence, bridging computer vision, natural language processing, and audio synthesis. Historically, video generation relied on recurrent neural networks, generative adversarial networks (GANs), and early 3D convolutional architectures constrained by severe temporal blur, limited resolution, and short duration. The paradigm shift began with the introduction of latent diffusion models and diffusion transformers, which successfully adapted transformer scaling laws to continuous and discrete video representations [5][8]. 
+
+Understanding and generation are increasingly converging into unified architectures [1][2]. While traditional pipelines separated video comprehension (via multimodal large language models) from video generation (via text-to-video diffusion decoders), modern foundational frameworks leverage joint multimodal tokenization, shared transformer backbones, and sequential multi-scale prediction [1][7]. This convergence is driven by the demand for interactive media creation, robust physical consistency, and seamless editing capabilities across text, audio, images, and video [3][11].
+
+## Architectural Foundations of Video and Multimodal Tokenization
+The foundational design of video and multimodal generation models hinges on how continuous or discrete tokens are structured and processed. A central challenge is representing high-dimensional video data—comprising spatial frames and temporal trajectories—without prohibitive computational costs. Divot introduces a video tokenizer that leverages diffusion processes for self-supervised feature learning, replacing deterministic mean-squared error regression with a Gaussian Mixture Model (GMM) predicting parameters via negative log-likelihood loss to prevent overly averaged outputs [1]. Similarly, MIO establishes an end-to-end foundation model built on multimodal tokens, utilizing SEED-Tokenizer for images and videos and an RVQ SpeechTokenizer to categorize architectures into Discrete-In-Discrete-Out (DIDO), CIDO, CICO, and Autoregressive-Diffusion hybrids [2].
+
+To reconcile global context modeling with local visual fidelity, ACDC introduces a zero-shot framework combining autoregressive models for global structure with memory-conditioned diffusion models for local correction using SDEdit [4]. Advancing sequential modeling further, NextFlow operates as a unified decoder-only autoregressive transformer trained on 6 trillion interleaved text-image discrete tokens, employing next-token prediction for text and next-scale prediction for hierarchical visual generation [7]. Concurrently, VideoAR implements a visual autoregressive framework combining multi-scale next-frame prediction to achieve high efficiency and temporal consistency [12].
+
+## Text-to-Video and Image-to-Video Diffusion Transformers
+The dominant family of video generation models relies on Diffusion Transformers (DiTs) with advanced spatial-temporal attention mechanisms. Stable Video Diffusion pioneered latent video diffusion scaling using systematic curatorial practices and efficient fine-tuning [5], while Open-Sora democratized efficient video production up to 720p and 15 seconds using a Spatial-Temporal Diffusion Transformer (STDiT) that decouples spatial and temporal attention [6]. Open-Sora 1.2 integrates a 3D autoencoder inspired by Sora to operate at native frame rates, adopting rotary positional embeddings (RoPE) and QK-normalization to ensure training stability [6].
+
+Architectural optimizations across this family target inference efficiency and long video scaling. SmoothCache accelerates DiT inference by caching key features across tasks [13], while Radial Attention introduces an $O(n \log n)$ sparse attention mechanism leveraging spatiotemporal energy decay [14]. Furthermore, Mixture-of-Block Attention (VMoBA) enhances efficiency for long-duration generation [15]. Perturbation analyses of attention maps reveal that spatial attention layers preserve frame-level layout and shape details for editing, whereas temporal attention layers govern dynamic motion patterns [16]. Additionally, datasets like VidProM provide million-scale prompt-gallery resources to analyze prompt distributions and refine text-to-video alignment [17].
+
+## Multimodal Omni-Modality and Audio-Visual Generation
+Beyond unimodal video synthesis, recent advances achieve omni-modal integration, uniting text, images, audio, and video into holistic generation systems. SkyReels-V4 employs a dual-stream architecture with shared text encoding to simultaneously generate, edit, and inpaint video and audio [3]. OmniWeaving features free-form composition and reasoning-informed capabilities, utilizing an MLLM with an active "thinking mode" to generate intermediate reasoning steps and Hidden States DeepStacking to inject semantic guidance into the MMDiT conditioning branch [11].
+
+Other unified frameworks bridge understanding and generation: Omni-Video connects MLLMs with text-to-video diffusion models via lightweight adapters and multi-stage training [18], while OmniShow supports Human-Object Interaction Video Generation (HOIVG) across text, reference images, audio, and pose conditioning using Gated Local-Context Attention [19]. For holistic audio-video tokenization, AVTok constructs a 1D unified representation via a dual-stream transformer with shared encoder-decoder blocks and modal-specific queries [20].
+
+## Evaluation Benchmarks and Scaling Paradigms
+Evaluating video generative models has transitioned from simplistic pixel-level statistics (such as FID, FVD, and IS) to sophisticated human-aligned benchmarks. VBench established a hierarchical disaggregated evaluation suite decomposing video performance into 16 disentangled dimensions covering temporal quality and video-condition consistency [9]. VBench-2.0 further evaluates intrinsic faithfulness across human fidelity, controllability, creativity, physics, and commonsense reasoning [21]. To simulate human feedback automatically, VideoScore trains regression scoring models initialized from Mantis-Idefics2-8B on the VideoFeedback dataset, outperforming prior metrics across EvalCrafter and VBench [10]. Furthermore, VBench++ expands evaluation to long-form videos and I2V generation [22], while Video-Bench introduces chain-of-query multi-turn prompting to mitigate textual bias and enhance correlation with human preferences [23].
+
+## Trends and open problems
+The field has been fundamentally shaped by scaling laws pioneered by Sora, which demonstrated that increasing model capacity and dataset scale unlocks emergent physical world modeling [8]. However, critical challenges remain largely unsolved. Current video generation models frequently struggle with complex multi-step plots, accurate object counting, 3D spatial understanding, and maintaining physical consistency over long durations [21]. Issues such as temporal flickering, hallucination, structural distortion, and high computational inference costs continue to motivate research into sparse attention mechanisms, quantization [24], and zero-shot correction modules [4]. Bridging the gap between superficial visual realism and deep physical reasoning remains the central frontier for future multimodal generation systems.
+
+## References
+[1] Divot: Diffusion Powers Video Tokenizer for Comprehension and Generation. hf-search. https://huggingface.co/papers/2412.04432 (2024-12-05)
+[2] MIO: A Foundation Model on Multimodal Tokens. arxiv. https://arxiv.org/abs/2409.17692 (2024-09-27)
+[3] SkyReels-V4: Multi-modal Video-Audio Generation, Inpainting and Editing model. hf-search. https://huggingface.co/papers/2602.21818 (2026-02-25)
+[4] Autoregressive Coherent Multimodal Generation with Diffusion Correction (ACDC). arxiv. https://arxiv.org/abs/2410.04721 (2024-10-07)
+[5] Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets. hf-search. https://huggingface.co/papers/2311.15127 (2023-11-25)
+[6] Open-Sora: Democratizing Efficient Video Production for All. web. https://arxiv.org/html/2412.20404 (2024-12-28)
+[7] NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation. arxiv. https://arxiv.org/abs/2601.02204 (2026-01-05)
+[8] Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models. web. https://arxiv.org/html/2402.17177 (2024-02-28)
+[9] VBench: Comprehensive Benchmark Suite for Video Generative Models. web. https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_VBench_Comprehensive_Benchmark_Suite_for_Video_Generative_Models_CVPR_2024_paper.pdf (2024-06-01)
+[10] VideoScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback for Video Generation. web. https://arxiv.org/html/2406.15252 (2024-06-15)
+[11] OmniWeaving: Towards Unified Video Generation with Free-form Composition and Reasoning. web. https://arxiv.org/html/2603.24458v1 (2026-03-24)
+[12] VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction. hf-search. https://huggingface.co/papers/2601.05966 (2026-01-09)
+[13] SmoothCache: A Universal Inference Acceleration Technique for Diffusion Transformers. hf-search. https://huggingface.co/papers/2411.10510 (2024-11-15)
+[14] Radial Attention: O(nlog n) Sparse Attention with Energy Decay for Long Video Generation. hf-search. https://huggingface.co/papers/2506.19852 (2025-06-24)
+[15] VMoBA: Mixture-of-Block Attention for Video Diffusion Models. hf-search. https://huggingface.co/papers/2506.23858 (2025-06-30)
+[16] Understanding Attention Mechanism in Video Diffusion Models. web. https://arxiv.org/html/2504.12027v2 (2025-04-12)
+[17] VidProM: A Million-scale Real Prompt-Gallery Dataset for Text-to-Video Diffusion Models. hf-search. https://huggingface.co/papers/2403.06098 (2024-03-10)
+[18] Omni-Video: Democratizing Unified Video Understanding and Generation. arxiv. https://arxiv.org/abs/2507.06119 (2025-07-06)
+[19] OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation. web. https://github.com/jmwdpk/OmniShow (2024-06-01)
+[20] AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation. hf-search. https://huggingface.co/papers/2606.30811 (2026-06-29)
+[21] VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness. web. https://arxiv.org/html/2503.21755v2 (2025-03-21)
+[22] VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models. web. https://arxiv.org/html/2411.13503v1 (2024-11-13)
+[23] Video-Bench: Human-Aligned Video Generation Benchmark. web. https://openaccess.thecvf.com/content/CVPR2025/papers/Han_Video-Bench_Human-Aligned_Video_Generation_Benchmark_CVPR_2025_paper.pdf (2025-06-01)
+[24] Hardware-Friendly Static Quantization Method for Video Diffusion Transformers. arxiv. https://arxiv.org/abs/2502.15077 (2025-02-20)

@@ -1,0 +1,186 @@
+[
+  {
+    "n": 1,
+    "id": "1803.10122",
+    "url": "https://arxiv.org/abs/1803.10122",
+    "title": "Recurrent World Models Facilitate Policy Evolution",
+    "date": "2018-03-27",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "2602.00785v1",
+    "url": "https://arxiv.org/pdf/2602.00785v1",
+    "title": "World Models as an Intermediary between Agents and the Real World",
+    "date": "2026-02-03",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2606.00133",
+    "url": "https://arxiv.org/abs/2606.00133",
+    "title": "World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications",
+    "date": "2026-05-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "genie-3",
+    "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
+    "title": "Genie 3: A new frontier for world models",
+    "date": "2025-08-05",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "openai-sora",
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "title": "Video generation models as world simulators",
+    "date": "2024-02-15",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2402.15391",
+    "url": "https://arxiv.org/abs/2402.15391",
+    "title": "Genie: Generative Interactive Environments",
+    "date": "2024-02-23",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "openai-sora-2",
+    "url": "https://openai.com/index/sora-2/",
+    "title": "Sora 2 is here",
+    "date": "2025-09-30",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2606.27326",
+    "url": "https://arxiv.org/html/2606.27326",
+    "title": "Hallucination in World Models is Predictable and Preventable",
+    "date": "2026-06-25",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2608.05799",
+    "url": "https://arxiv.org/pdf/2608.05799.pdf",
+    "title": "XEWorld: Can Action-Conditioned World Models Generalize to Unseen Robot Embodiments?",
+    "date": "2026-08-06",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "Craik_NOE_Chapter_5",
+    "url": "https://markhuckvale.com/research/hp/Craik_NOE_Chapter_5.pdf",
+    "title": "The Nature of Explanation (Chapter 5: Hypothesis on the Nature of Thought)",
+    "date": "1943-01-01",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "Kenneth_Craik",
+    "url": "https://en.wikipedia.org/wiki/Kenneth_Craik",
+    "title": "Kenneth Craik Wikipedia Entry on Control Theory & Servomechanisms",
+    "date": "2026-10-02",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "10.1007/s42087-024-00460-z",
+    "url": "https://link.springer.com/article/10.1007/s42087-024-00460-z",
+    "title": "The Prehistory of the Idea that Thinking is Modelling",
+    "date": "2025-01-14",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "2de5d16682c3c35007e4e92982f1a2ba",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2018/file/2de5d16682c3c35007e4e92982f1a2ba-Paper.pdf",
+    "title": "Recurrent World Models Facilitate Policy Evolution",
+    "date": "2018-12-04",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "2301.04104",
+    "url": "https://arxiv.org/abs/2301.04104",
+    "title": "Mastering Diverse Control Tasks through World Models",
+    "date": "2023-01-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 15,
+    "id": "1911.08265",
+    "url": "https://arxiv.org/abs/1911.08265",
+    "title": "MuZero: Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",
+    "date": "2019-11-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 16,
+    "id": "2301.08243",
+    "url": "https://arxiv.org/abs/2301.08243",
+    "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+    "date": "2023-01-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 17,
+    "id": "2405.03520",
+    "url": "https://huggingface.co/papers/2405.03520",
+    "title": "Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond",
+    "date": "2024-05-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "2402.17177",
+    "url": "https://huggingface.co/papers/2402.17177",
+    "title": "Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models",
+    "date": "2024-02-27",
+    "source": "hf-search"
+  },
+  {
+    "n": 19,
+    "id": "2406.09455v1",
+    "url": "https://arxiv.org/pdf/2406.09455v1",
+    "title": "Pandora: Towards General World Model with Natural Language Actions and Video States",
+    "date": "2024-06-09",
+    "source": "web"
+  },
+  {
+    "n": 20,
+    "id": "2511.09057v2",
+    "url": "https://arxiv.org/html/2511.09057v2",
+    "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+    "date": "2025-11-09",
+    "source": "web"
+  },
+  {
+    "n": 21,
+    "id": "2411.07690",
+    "url": "https://arxiv.org/pdf/2411.07690",
+    "title": "World Models: The Safety Perspective",
+    "date": "2024-11-12",
+    "source": "web"
+  },
+  {
+    "n": 22,
+    "id": "2604.01346v1",
+    "url": "https://arxiv.org/pdf/2604.01346v1",
+    "title": "Safety, Security, and Cognitive Risks of World Models",
+    "date": "2026-04-01",
+    "source": "web"
+  },
+  {
+    "n": 23,
+    "id": "kang25g",
+    "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/kang25g/kang25g.pdf",
+    "title": "How Far is Video Generation from World Model: A Physical Law Perspective",
+    "date": "2025-01-01",
+    "source": "web"
+  }
+]

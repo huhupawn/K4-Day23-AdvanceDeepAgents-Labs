@@ -77,6 +77,17 @@ Bạn cần ba loại khóa (điền vào `.env`, **không bao giờ commit** `.
 | `DAYTONA_API_KEY` | https://app.daytona.io | Kiểm tra gói miễn phí / credit hiện hành. Không có tài khoản hoặc hết credit: đặt `SANDBOX=docker` để chạy sandbox trong container Docker cục bộ (xem `.env.example`). |
 | `EXA_API_KEY` (khuyến nghị) | https://dashboard.exa.ai/api-keys | Có thể chạy không khóa, nhưng bản miễn phí của MCP bị giới hạn tốc độ rất nhanh. |
 
+### Cấu hình tùy chọn (bài nộp này)
+
+Các báo cáo trong `reports/` được sinh bằng `LAB_MODEL=google_genai:gemini-3.5-flash-lite` (gói miễn phí của Gemini). Hai biến tùy chọn trong `.env`:
+
+| Biến | Ý nghĩa |
+|---|---|
+| `LAB_RPM` | Trần số lần gọi mô hình mỗi phút, dùng chung cho lead và mọi subagent (cần cho gói miễn phí, ví dụ `8`). Lỗi 429 tạm thời được retry tự động; hết hạn mức theo ngày thì dừng ngay. |
+| `LAB_MAX_MINUTES` | Trần thời gian của một lần chạy (mặc định 60). Quá hạn thì in `FAILED`, không ghi báo cáo, thoát mã 1. |
+
+Đọc kết quả: mỗi chủ đề có `reports/<slug>.md` (báo cáo), `<slug>.sources.json` (nguồn được trích dẫn) và `<slug>.meta.json` (mô hình, thời gian, số lần giao việc cho subagent, số lần gọi công cụ, token của lead, các họ nguồn).
+
 ## 5. Làm bài
 
 Làm theo thứ tự (chi tiết trong `GUIDE.md`):

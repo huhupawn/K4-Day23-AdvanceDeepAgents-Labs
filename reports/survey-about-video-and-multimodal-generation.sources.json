@@ -1,0 +1,194 @@
+[
+  {
+    "n": 1,
+    "id": "2412.04432",
+    "url": "https://huggingface.co/papers/2412.04432",
+    "title": "Divot: Diffusion Powers Video Tokenizer for Comprehension and Generation",
+    "date": "2024-12-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "2409.17692",
+    "url": "https://arxiv.org/abs/2409.17692",
+    "title": "MIO: A Foundation Model on Multimodal Tokens",
+    "date": "2024-09-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2602.21818",
+    "url": "https://huggingface.co/papers/2602.21818",
+    "title": "SkyReels-V4: Multi-modal Video-Audio Generation, Inpainting and Editing model",
+    "date": "2026-02-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2410.04721",
+    "url": "https://arxiv.org/abs/2410.04721",
+    "title": "Autoregressive Coherent Multimodal Generation with Diffusion Correction (ACDC)",
+    "date": "2024-10-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "2311.15127",
+    "url": "https://huggingface.co/papers/2311.15127",
+    "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+    "date": "2023-11-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "https://arxiv.org/html/2412.20404",
+    "url": "https://arxiv.org/html/2412.20404",
+    "title": "Open-Sora: Democratizing Efficient Video Production for All",
+    "date": "2024-12-28",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2601.02204",
+    "url": "https://arxiv.org/abs/2601.02204",
+    "title": "NextFlow: Unified Sequential Modeling Activates Multimodal Understanding and Generation",
+    "date": "2026-01-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "https://arxiv.org/html/2402.17177",
+    "url": "https://arxiv.org/html/2402.17177",
+    "title": "Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models",
+    "date": "2024-02-28",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_VBench_Comprehensive_Benchmark_Suite_for_Video_Generative_Models_CVPR_2024_paper.pdf",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_VBench_Comprehensive_Benchmark_Suite_for_Video_Generative_Models_CVPR_2024_paper.pdf",
+    "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+    "date": "2024-06-01",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "https://arxiv.org/html/2406.15252",
+    "url": "https://arxiv.org/html/2406.15252",
+    "title": "VideoScore: Building Automatic Metrics to Simulate Fine-grained Human Feedback for Video Generation",
+    "date": "2024-06-15",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "https://arxiv.org/html/2603.24458v1",
+    "url": "https://arxiv.org/html/2603.24458v1",
+    "title": "OmniWeaving: Towards Unified Video Generation with Free-form Composition and Reasoning",
+    "date": "2026-03-24",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2601.05966",
+    "url": "https://huggingface.co/papers/2601.05966",
+    "title": "VideoAR: Autoregressive Video Generation via Next-Frame & Scale Prediction",
+    "date": "2026-01-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "2411.10510",
+    "url": "https://huggingface.co/papers/2411.10510",
+    "title": "SmoothCache: A Universal Inference Acceleration Technique for Diffusion Transformers",
+    "date": "2024-11-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 14,
+    "id": "2506.19852",
+    "url": "https://huggingface.co/papers/2506.19852",
+    "title": "Radial Attention: O(nlog n) Sparse Attention with Energy Decay for Long Video Generation",
+    "date": "2025-06-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2506.23858",
+    "url": "https://huggingface.co/papers/2506.23858",
+    "title": "VMoBA: Mixture-of-Block Attention for Video Diffusion Models",
+    "date": "2025-06-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 16,
+    "id": "https://arxiv.org/html/2504.12027v2",
+    "url": "https://arxiv.org/html/2504.12027v2",
+    "title": "Understanding Attention Mechanism in Video Diffusion Models",
+    "date": "2025-04-12",
+    "source": "web"
+  },
+  {
+    "n": 17,
+    "id": "2403.06098",
+    "url": "https://huggingface.co/papers/2403.06098",
+    "title": "VidProM: A Million-scale Real Prompt-Gallery Dataset for Text-to-Video Diffusion Models",
+    "date": "2024-03-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "2507.06119",
+    "url": "https://arxiv.org/abs/2507.06119",
+    "title": "Omni-Video: Democratizing Unified Video Understanding and Generation",
+    "date": "2025-07-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 19,
+    "id": "https://github.com/jmwdpk/OmniShow",
+    "url": "https://github.com/jmwdpk/OmniShow",
+    "title": "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation",
+    "date": "2024-06-01",
+    "source": "web"
+  },
+  {
+    "n": 20,
+    "id": "2606.30811",
+    "url": "https://huggingface.co/papers/2606.30811",
+    "title": "AVTok: 1D Unified Tokenization for Holistic Audio-Video Generation",
+    "date": "2026-06-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 21,
+    "id": "https://arxiv.org/html/2503.21755v2",
+    "url": "https://arxiv.org/html/2503.21755v2",
+    "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness",
+    "date": "2025-03-21",
+    "source": "web"
+  },
+  {
+    "n": 22,
+    "id": "https://arxiv.org/html/2411.13503v1",
+    "url": "https://arxiv.org/html/2411.13503v1",
+    "title": "VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models",
+    "date": "2024-11-13",
+    "source": "web"
+  },
+  {
+    "n": 23,
+    "id": "https://openaccess.thecvf.com/content/CVPR2025/papers/Video-Bench_H.jpg",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Han_Video-Bench_Human-Aligned_Video_Generation_Benchmark_CVPR_2025_paper.pdf",
+    "title": "Video-Bench: Human-Aligned Video Generation Benchmark",
+    "date": "2025-06-01",
+    "source": "web"
+  },
+  {
+    "n": 24,
+    "id": "2502.15077",
+    "url": "https://arxiv.org/abs/2502.15077",
+    "title": "Hardware-Friendly Static Quantization Method for Video Diffusion Transformers",
+    "date": "2025-02-20",
+    "source": "arxiv"
+  }
+]
